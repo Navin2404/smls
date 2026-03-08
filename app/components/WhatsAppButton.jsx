@@ -1,6 +1,6 @@
 export default function WhatsAppButton() {
 
-  const phoneNumber = "919629334302"
+  const phoneNumber = "919944736566"
 
   const message = "Hello SMLS, I would like to know more about your laser cutting services."
 
