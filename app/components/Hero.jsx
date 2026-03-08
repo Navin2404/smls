@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
 
-    <section id="home" className="w-full h-screen">
+    <section id="home" className="relative w-full h-screen">
 
       <Swiper
         modules={[Autoplay]}
@@ -57,13 +57,13 @@ export default function Hero() {
 
       <div className="absolute top-0 left-0 w-full h-screen flex items-center justify-center bg-black/40 text-white text-center z-10">
 
-        <div>
+        <div className="hero-text">
 
-          <h1 className="text-5xl font-bold">
+          <h1 className="hero-title">
             SMLS Laser Cutting
           </h1>
 
-          <p className="mt-4 text-xl">
+          <p className="hero-subtitle">
             Precision Laser Cutting Solutions
           </p>
 

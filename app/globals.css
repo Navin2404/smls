@@ -50,3 +50,32 @@ html {
     transform: scale(1.05) translateX(20px);
   }
 }
+
+/*  text animation*/
+.hero-title{
+  font-size:48px;
+  font-weight:700;
+  opacity:0;
+  transform:translateY(40px);
+  animation: fadeUp 1.2s ease forwards;
+}
+
+.hero-subtitle{
+  margin-top:16px;
+  font-size:20px;
+  opacity:0;
+  transform:translateY(40px);
+  animation: fadeUp 1.6s ease forwards;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
