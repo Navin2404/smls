@@ -2,7 +2,7 @@ export default function Footer() {
 
   return (
 
-    <footer className="bg-gray-900 text-white py-16 px-6">
+    <footer id="reachus" className="bg-gray-900 text-white py-16 px-6">
 
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
 
@@ -47,7 +47,7 @@ export default function Footer() {
           </h3>
 
           <p className="text-gray-400 mb-2">
-            📞 Phone: +91 96293 34302
+            📞 Phone: +91 99447 36566, +91 9566625272 
           </p>
 
           <p className="text-gray-400 mb-2">

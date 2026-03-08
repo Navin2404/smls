@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
 
-    <section className="w-full h-screen">
+    <section id="home" className="w-full h-screen">
 
       <Swiper
         modules={[Autoplay]}
