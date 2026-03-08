@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+
 export default function Footer() {
 
   return (
@@ -20,9 +22,42 @@ export default function Footer() {
         </div>
 
 
-        {/* Quick Links */}
+        {/* Social Icons */}
+
+          {/* Social Icons */}
 
         <div>
+          <h3 className="text-xl text-center font-semibold mb-4">
+            Follow Us
+          </h3>
+
+          <div className="flex justify-center space-x-8 text-2xl text-gray-400">
+
+            <a 
+              href="https://instagram.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <FaInstagram />
+            </a>
+
+            <a 
+              href="https://wa.me/919944736566"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              <FaWhatsapp />
+            </a>
+
+          </div>
+        </div>
+
+
+        {/* Quick Links */}
+
+        {/* <div>
           <h3 className="text-xl font-semibold mb-4">
             Quick Links
           </h3>
@@ -35,7 +70,7 @@ export default function Footer() {
             <li className="hover:text-white cursor-pointer">Contact</li>
 
           </ul>
-        </div>
+        </div> */}
 
 
         {/* Contact Info */}
