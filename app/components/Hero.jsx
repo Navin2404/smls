@@ -15,21 +15,32 @@ export default function Hero() {
         modules={[Autoplay]}
         autoplay={{ delay: 3000 }}
         loop={true}
+        speed={1200}
         className="h-full"
       >
 
         <SwiperSlide>
-          <video autoPlay muted loop className="w-full h-screen object-cover">
+          <video
+            autoPlay
+            muted
+            loop
+            className="hero-media"
+          >
             <source src="/sharping-final.mp4" type="video/mp4"/>
           </video>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src="/blue-cnc.jpg" className="w-full h-screen object-cover"/>
+          <img src="/blue-cnc.jpg" className="hero-media w-full h-screen object-cover"/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <video autoPlay muted loop className="w-full h-screen object-cover">
+          <video
+            autoPlay
+            muted
+            loop
+            className="hero-media"
+          >
             <source src="/cutting-finish.mp4" type="video/mp4"/>
           </video>
         </SwiperSlide>
@@ -37,7 +48,7 @@ export default function Hero() {
         
 
         <SwiperSlide>
-          <img src="/semi-work.jpg" className="w-full h-screen object-cover"/>
+          <img src="/semi-work.jpg" className="hero-media w-full h-screen object-cover"/>
         </SwiperSlide>
 
       </Swiper>
