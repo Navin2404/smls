@@ -61,6 +61,7 @@ export default function Hero() {
 
           <h1 className="hero-title">
             SMLS Laser Cutting
+            <span className="laser-line"></span>
           </h1>
 
           <p className="hero-subtitle">
